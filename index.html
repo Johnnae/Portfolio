@@ -1,48 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css"/>
-    <title>Document</title>
-</head> 
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./assets/style.css"">
+</head>
 
 <body>
-<header> 
-    <h1>Johnnae Brown</h1> 
-</header>
-<nav class="navbar background">
-    <ul class="nav-list"> 
-        <li><a href="#">resume</a></li>
-        <li><a href="#">projects</a></li>
-        <li><a href="#">contact</a></li>
+  <header>
+    <h1>Johnnae Brown</h1>
+    <img src="avatar.jpg" alt="Photo here">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-</nav>
+  </nav>
 
-<section class="firstsection">
-    <div class="box-main">
-        <div class="firstHalf">
-            <h1 class="text-big" id="Me">About Me</h1>
-            <p class="text-small">
-                Hello I am Johnnae Brown. I am a beginner Web devoloper with extreme attention to detail and a adept learner. 
-                I began my career in the medical field over the 10 years it was mandatory to adapt to many diffrent settings. 
-            </p> 
+  <section id="about">
+    <h2>About Me</h2>
+    Hello I am Johnnae Brown. I am a beginner Web devoloper with extreme attention to detail and a adept
+    learner.
+    I began my career in the medical field over the 10 years it was mandatory to adapt to many diffrent
+    settings.
+  </section>
 
-    
-        </div>
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="project">
+      <a href="#project1">
+        <img src="project1.jpg" alt="Project 1" class="featured">
+      </a>
+      <a href="#project2">
+        <img src="project2.jpg" alt="Project 2">
+      </a>
+      <a href="#project3">
+        <img src="project3.jpg" alt="Project 3">
+      </a>
     </div>
-</section>
+  </section>
 
-<section class="secondsection"> 
-    <div class="logo">
-        <img src= "emoji.png" alt="avatar here"> 
-        <h1 class="text-big" id="Me">Contact</h1> 
-            <p class="text-small"> 
-                Email : Johnnae908@yahoo.com 
-                Phone : 312-478-3266 
+  <section id="contact">
+    <h2>Contact Me</h2>
+    Email : Johnnae908@yahoo.com
+                Phone : 312-478-3266
+  </section>
 
-    </div> 
-    <footer> <li><a href="#">linkedin</a></li> </footer>
-    
-</body> 
+  
+</body>
+
+</html>
